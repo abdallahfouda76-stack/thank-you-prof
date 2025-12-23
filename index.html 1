@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Thank You</title>
+
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(270deg, #444, #aaa, #222);
+  background-size:600% 600%;
+  animation: bg 10s ease infinite;
+  font-family: Arial, sans-serif;
+  text-align:center;
+  color:white;
+}
+
+@keyframes bg{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.box{
+  background: rgba(0,0,0,0.6);
+  padding:30px;
+  border-radius:20px;
+}
+
+h1{
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+p{
+  font-size:26px;
+  line-height:1.6;
+}
+
+.name{
+  margin-top:20px;
+  font-size:30px;
+  color:#ffd700;
+  font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Thank You, Mr. Moataz 🌟</h1>
+
+    <p>
+      شكراً يا أستاذ معتز على كل مجهودك وتعبك معنا<br>
+      بجد حضرتك مصدر إلهام لينا ❤️
+    </p>
+
+    <p class="name">
+      Presented by<br>
+      ABDALLAH FOUDA
+    </p>
+  </div>
+</body>
+</html>
